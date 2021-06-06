@@ -25,7 +25,7 @@ namespace fibonacci
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.WriteLine("Digite 0 para sair.");
                 Console.ResetColor();
-                Console.WriteLine("Digite sua opção --> ");
+                Console.Write("Digite sua opção --> ");
                 opcao = Convert.ToString(Console.ReadLine());
 
                 if(opcao == "1"){
