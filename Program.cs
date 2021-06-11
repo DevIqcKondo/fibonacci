@@ -52,12 +52,10 @@ namespace fibonacci
             Console.WriteLine();
 
             for(int i=0;i<x;i++){
-                c3=c1+c2;
-                Console.WriteLine(c3);
-                c2=c1;
-                c1=c3;
-
-
+                Console.WriteLine(c2);
+                c3 = c2;
+                c2 = c1;
+                c1 = c3 + c2;
             }
             Console.ReadLine();
             Console.Beep();
